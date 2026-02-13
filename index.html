@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Aylin 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ДВИЖУЩИЙСЯ ФОН -->
+<div class="bg">
+  <div class="glow pink"></div>
+  <div class="glow purple"></div>
+</div>
+
+<!-- ПЛАВАЮЩИЕ ФОТО -->
+<div class="photos">
+  <img src="img/photo1.jpg" alt="us">
+  <img src="img/photo2.jpg" alt="us">
+  <img src="img/photo3.jpg" alt="us">
+</div>
+
+<!-- КАРТОЧКА -->
+<div class="card" id="page1">
+  <h1>Aylin 🤍</h1>
+  <p>
+    You sent me something very special.<br>
+    So I wanted to answer not just with words…
+  </p>
+  <button onclick="next()">Continue</button>
+</div>
+
+<div class="card hidden" id="page2">
+  <h1>My answer</h1>
+  <p class="love-text">
+    Dear Aylin,<br><br>
+    I sincerely want to be your Valentine.<br>
+    And not only tomorrow.
+  </p>
+  <button onclick="final()">Yes, it's you 💖</button>
+</div>
+
+<div class="card hidden" id="page3">
+  <h1>With love</h1>
+  <p class="love-text">
+    With all my heart,<br>
+    Batyrkhan 🤍
+  </p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
